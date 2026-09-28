@@ -19,7 +19,7 @@ SECRET_KEY = os.environ.get(
     "django-insecure-local-development-key-change-in-production"
 )
 
-# TEMPORARY: debugging Render 500 error
+# TEMPORARY: used to identify the Render 500 error
 DEBUG = True
 
 ALLOWED_HOSTS = [
@@ -171,6 +171,30 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # ============================================================
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+
+# ============================================================
+# LOGGING
+# ============================================================
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+    },
+
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+            'level': 'ERROR',
+            'propagate': False,
+        },
+    },
+}
 
 
 # ============================================================
