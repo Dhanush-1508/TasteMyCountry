@@ -1,0 +1,2637 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Taste My Country</title>
+
+    <link rel="stylesheet" href="{% static 'css/index.css' %}?v=infinity-red-grad">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="{% static 'image/logo.png' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Saurashtra&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Satisfy&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<!-- ================= NAVBAR SECTION ================= -->
+
+<div class="page-wrapper ">
+
+    <nav class="navbar">
+
+        <div class="nav-header">
+
+            <a href="#" class="nav-brand">
+
+                <img src="{% static 'image/logo.png' %}"
+                     alt="Taste My Country Logo">
+
+                <span class="nav-logo">
+                    Taste My Country.
+                </span>
+
+            </a>
+
+
+            <button class="nav-toggle"
+                    type="button"
+                    aria-label="Toggle menu">
+
+                ☰
+
+            </button>
+
+        </div>
+
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="#">Home</a>
+            </li>
+
+            <li>
+                <a href="#our-services">Services</a>
+            </li>
+
+            <li>
+                <a href="#work">Our Work</a>
+            </li>
+
+            <li>
+                <a href="#clients">Clients</a>
+            </li>
+
+            <li>
+                <a href="#about">About Us</a>
+            </li>
+
+            <li>
+                <a href="#contact" class="nav-contact-btn">
+                    Contact
+                </a>
+            </li>
+
+            <li>
+
+                <button class="theme-toggle"
+                        type="button"
+                        aria-label="Toggle theme">
+
+                    <span class="theme-icon sun">
+                        ☀
+                    </span>
+
+                    <span class="theme-icon moon">
+                        ☽
+                    </span>
+
+                </button>
+
+            </li>
+
+        </ul>
+
+    </nav>
+
+</div>
+
+
+<!-- ================= HERO SECTION ================= -->
+
+
+<section class="hero-section" id="home">
+
+    <div class="hero-cinematic-glow" aria-hidden="true"></div>
+
+    <div class="hero-container">
+
+        <!-- ================= LEFT CONTENT ================= -->
+
+        <div class="hero-content hero-cinematic-content">
+
+            <p class="hero-eyebrow hero-cinematic-item">
+                YOUR GROWTH. OUR STRATEGY.
+            </p>
+
+            <h1 class="hero-title hero-cinematic-item">
+
+                <strong>WE CREATE POWERFUL</strong>
+
+                <span>Brands that</span>
+
+                <strong>MAKE AN IMPACT</strong>
+
+            </h1>
+
+            <p class="hero-description hero-cinematic-item">
+
+                We build powerful brands through strategic digital
+                marketing, creative content, and social media
+                solutions that turn attention into growth.
+
+            </p>
+
+            <div class="hero-buttons hero-cinematic-item">
+
+                <a href="#contact"
+                   class="hero-btn hero-btn-primary">
+
+                    GET STARTED
+                    <i class="bi bi-arrow-up-right"></i>
+
+                </a>
+
+                <a href="#work"
+                   class="hero-btn hero-btn-secondary">
+
+                    VIEW OUR WORK
+                    <i class="bi bi-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= RIGHT HERO SCENE ================= -->
+
+        <div class="hero-infinity-wrapper hero-cinematic-infinity">
+
+            <div class="hero-infinity"
+                 id="infinity-animation"
+                 data-animation="{% static 'animation/tmc-loop.json' %}?v=services"
+                 aria-hidden="true">
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= HERO SECTION END ================= -->
+
+
+
+<!-- ================= SERVICES SECTION ================= -->
+
+<section class="services-section" id="services">
+
+    <div class="services-scroll-space" id="servicesScrollSpace">
+
+        <div id="our-services"
+             aria-hidden="true"
+             style="position:absolute;top:54%;left:0;width:1px;height:1px;overflow:hidden;pointer-events:none;scroll-margin-top:var(--nav-height)"></div>
+
+        <div class="services-viewport" id="servicesViewport">
+
+            <div class="services-decor" aria-hidden="true">
+                <svg class="services-decor-curve services-decor-curve--1" viewBox="0 0 400 400" fill="none">
+                    <circle cx="200" cy="200" r="160" stroke="currentColor" stroke-width="1"/>
+                    <circle cx="200" cy="200" r="120" stroke="currentColor" stroke-width="1"/>
+                    <circle cx="200" cy="200" r="80" stroke="currentColor" stroke-width="1"/>
+                </svg>
+                <svg class="services-decor-curve services-decor-curve--2" viewBox="0 0 300 300" fill="none">
+                    <path d="M20 150 Q150 20 280 150 Q150 280 20 150" stroke="currentColor" stroke-width="1"/>
+                </svg>
+                <span class="services-decor-star services-decor-star--1">✦</span>
+                <span class="services-decor-star services-decor-star--2">✦</span>
+                <span class="services-decor-star services-decor-star--3">·</span>
+                <span class="services-decor-square services-decor-square--1"></span>
+                <span class="services-decor-square services-decor-square--2"></span>
+                <span class="services-decor-dot-grid"></span>
+            </div>
+            <!-- ================= INTERMEDIATE SERVICE TEXT ================= -->
+
+<div class="services-agent-layer" id="servicesAgentText" aria-hidden="true">
+
+    <p class="services-agent-text">
+        WE ARE A <em>DIGITAL MARKETING</em> AGENCY
+    </p>
+
+</div>
+
+<!-- ================= INTERMEDIATE SERVICE TEXT END ================= -->
+
+            <div class="services-quote-layer" id="servicesQuote">
+                <p class="services-quote">
+                    A digital marketing agency that turns
+                    <em>ideas into powerful brands</em>
+                    &amp; growth into meaningful results.
+                </p>
+            </div>
+
+
+            <header class="services-heading-layer" id="servicesHeading">
+                <p class="services-heading-eyebrow">What We Do</p>
+                <h2 class="services-heading">OUR SERVICES</h2>
+                <span class="services-heading-line"></span>
+            </header>
+
+
+            <div class="services-list-layer" id="servicesList">
+
+                <article class="service-item" data-index="0">
+                    <span class="service-shape service-shape--circle"></span>
+                    <span class="service-number">01</span>
+                    <div class="service-body">
+                        <h3 class="service-name">Brand Promotion</h3>
+                        <p class="service-desc">Build a strong brand presence that gets noticed and remembered.</p>
+                    </div>
+                    <i class="bi bi-award service-icon"></i>
+                </article>
+
+                <article class="service-item" data-index="1">
+                    <span class="service-shape service-shape--square"></span>
+                    <span class="service-number">02</span>
+                    <div class="service-body">
+                        <h3 class="service-name">Digital Marketing</h3>
+                        <p class="service-desc">Strategic digital solutions that connect your brand with the right audience.</p>
+                    </div>
+                    <i class="bi bi-graph-up-arrow service-icon"></i>
+                </article>
+
+                <article class="service-item" data-index="2">
+                    <span class="service-shape service-shape--line"></span>
+                    <span class="service-number">03</span>
+                    <div class="service-body">
+                        <h3 class="service-name">Social Media Marketing</h3>
+                        <p class="service-desc">Create engaging social strategies that grow your reach and audience.</p>
+                    </div>
+                    <i class="bi bi-share service-icon"></i>
+                </article>
+
+                <article class="service-item" data-index="3">
+                    <span class="service-shape service-shape--circle"></span>
+                    <span class="service-number">04</span>
+                    <div class="service-body">
+                        <h3 class="service-name">Social Media Management</h3>
+                        <p class="service-desc">Manage, grow, and maintain your social presence with consistency.</p>
+                    </div>
+                    <i class="bi bi-calendar-check service-icon"></i>
+                </article>
+
+                <article class="service-item" data-index="4">
+                    <span class="service-shape service-shape--square"></span>
+                    <span class="service-number">05</span>
+                    <div class="service-body">
+                        <h3 class="service-name">Meta Ads</h3>
+                        <p class="service-desc">Targeted Facebook &amp; Instagram campaigns designed to reach potential customers.</p>
+                    </div>
+                    <i class="bi bi-meta service-icon"></i>
+                </article>
+
+                <article class="service-item" data-index="5">
+                    <span class="service-shape service-shape--line"></span>
+                    <span class="service-number">06</span>
+                    <div class="service-body">
+                        <h3 class="service-name">Content Creation</h3>
+                        <p class="service-desc">Creative content that tells your story and keeps your audience engaged.</p>
+                    </div>
+                    <i class="bi bi-camera-reels service-icon"></i>
+                </article>
+
+                <article class="service-item" data-index="6">
+                    <span class="service-shape service-shape--circle"></span>
+                    <span class="service-number">07</span>
+                    <div class="service-body">
+                        <h3 class="service-name">Web Development</h3>
+                        <p class="service-desc">Modern, responsive websites designed to represent your brand and drive growth.</p>
+                    </div>
+                    <i class="bi bi-code-slash service-icon"></i>
+                </article>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SERVICES SECTION END ================= -->
+
+
+
+<!-- ==================  OUR WORK SECTION =================== -->
+
+<section class="work-section" id="work">
+
+    <div class="work-container">
+
+        <!-- SECTION HEADING -->
+        <div class="work-heading">
+
+            <p class="work-eyebrow">What We Create</p>
+
+            <h2 class="work-title">OUR WORK</h2>
+
+            <span class="work-heading-line"></span>
+
+            <p class="work-intro">
+                A glimpse of the creative work we create for brands,
+                businesses, and growing audiences.
+            </p>
+
+        </div>
+
+
+        <!-- VIDEO SLIDER -->
+        <div class="work-slider">
+
+            <!-- LEFT ARROW -->
+            <button
+                class="work-arrow work-arrow-left"
+                id="workPrev"
+                type="button"
+                aria-label="Previous videos">
+
+                <i class="bi bi-chevron-left"></i>
+
+            </button>
+
+
+            <!-- RIGHT ARROW -->
+            <button
+                class="work-arrow work-arrow-right"
+                id="workNext"
+                type="button"
+                aria-label="Next videos">
+
+                <i class="bi bi-chevron-right"></i>
+
+            </button>
+
+
+            <!-- VIDEO TRACK -->
+            <div class="work-track" id="workTrack">
+
+
+                <!-- VIDEO 01 -->
+                <article class="work-card">
+
+                    <a
+                        href="https://www.instagram.com/reel/DapyJBJKUi4/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA=="
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <video
+                            class="work-video"
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                            preload="auto">
+
+                            <source
+                                src="{% static 'video/work-01.mp4' %}"
+                                type="video/mp4">
+
+                        </video>
+
+                    </a>
+
+                </article>
+
+
+                <!-- VIDEO 02 -->
+                <article class="work-card">
+
+                    <a
+                        href="https://www.instagram.com/reel/DbPiSTxSrxc/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA=="
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <video
+                            class="work-video"
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                            preload="auto">
+
+                            <source
+                                src="{% static 'video/work-02.mp4' %}"
+                                type="video/mp4">
+
+                        </video>
+
+                    </a>
+
+                </article>
+
+
+                <!-- VIDEO 03 -->
+                <article class="work-card">
+
+                    <a
+                        href="https://www.instagram.com/reel/Dc0YysxPUSv/?stkn=MXVsZXVkc3VlZnAzMw=="
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <video
+                            class="work-video"
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                            preload="auto">
+
+                            <source
+                                src="{% static 'video/work-03.mp4' %}"
+                                type="video/mp4">
+
+                        </video>
+
+                    </a>
+
+                </article>
+
+
+                <!-- VIDEO 04 -->
+                <article class="work-card">
+
+                    <a
+                        href="https://www.instagram.com/reel/DdGFtnFhLP7/?stkn=MWVseG83MDd5ZmttYQ=="
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <video
+                            class="work-video"
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                            preload="auto">
+
+                            <source
+                                src="{% static 'video/work-04.mp4' %}"
+                                type="video/mp4">
+
+                        </video>
+
+                    </a>
+
+                </article>
+
+
+                <!-- VIDEO 05 -->
+                <article class="work-card">
+
+                    <a
+                        href="https://www.instagram.com/reel/DbcaSjhTmZw/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA=="
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <video
+                            class="work-video"
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                            preload="auto">
+
+                            <source
+                                src="{% static 'video/work-05.mp4' %}"
+                                type="video/mp4">
+
+                        </video>
+
+                    </a>
+
+                </article>
+
+
+                <!-- VIDEO 06 -->
+                <article class="work-card">
+
+                    <a
+                        href="https://www.instagram.com/reel/DdwCeeRB-r_/?stkn=MWk3YWw0cXRiMXN2aQ=="
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <video
+                            class="work-video"
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                            preload="auto">
+
+                            <source
+                                src="{% static 'video/work-06.mp4' %}"
+                                type="video/mp4">
+
+                        </video>
+
+                    </a>
+
+                </article>
+
+
+                <!-- VIDEO 07 -->
+                <article class="work-card">
+
+                    <a
+                        href="https://www.instagram.com/reel/DdeA9nROl1_/?stkn=dnBvNmI4ZG5rb3Bp"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <video
+                            class="work-video"
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                            preload="auto">
+
+                            <source
+                                src="{% static 'video/work-07.mp4' %}"
+                                type="video/mp4">
+
+                        </video>
+
+                    </a>
+
+                </article>
+
+
+                <!-- VIDEO 08 -->
+                <article class="work-card">
+
+                    <a
+                        href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID_08"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <video
+                            class="work-video"
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                            preload="auto">
+
+                            <source
+                                src="{% static 'video/work-08.mp4' %}"
+                                type="video/mp4">
+
+                        </video>
+
+                    </a>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================== OUR WORK SECTION ==================== -->
+
+
+<!-- ===================== CLIENT SECTION ===================== -->
+
+<section class="client-section" id="clients">
+
+    <div class="client-container">
+
+        <div class="client-heading">
+            <h2>What Our Clients Say</h2>
+
+            <p>
+                Hear from the people who have experienced our digital solutions.
+            </p>
+        </div>
+
+
+        <div class="client-wrapper">
+
+            <button
+                class="client-slider-btn client-prev-btn"
+                type="button"
+                aria-label="Previous client">
+                &#10094;
+            </button>
+
+
+            <div class="client-viewport">
+
+                <div class="client-track">
+
+                    {% for review in reviews %}
+
+                    <div class="client-slide">
+
+                        <div class="client-card">
+
+                            <div class="client-info">
+
+
+                                <div>
+                                    <h4>{{ review.name }}</h4>
+                                    <span>{{ review.role }}</span>
+                                </div>
+
+                            </div>
+
+
+                            <p class="client-review"
+                               {% if review.comment|length > 220 %}data-full="{{ review.comment }}"{% endif %}>
+                                {% if review.comment|length > 220 %}
+                                    “{{ review.comment|truncatechars:220 }}”
+                                    <a href="#">Read More</a>
+                                {% else %}
+                                    “{{ review.comment }}”
+                                {% endif %}
+                            </p>
+
+
+                            <div class="client-stars">
+                                {{ review.star_display }}
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    {% endfor %}
+
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="client-slider-btn client-next-btn"
+                type="button"
+                aria-label="Next client">
+                &#10095;
+            </button>
+
+        </div>
+
+
+        <div class="client-dots"></div>
+
+
+        <div class="client-more">
+
+            <a href="#write-review" id="writeReviewBtn">
+                Write a Review
+            </a>
+
+        </div>
+
+        {% if messages %}
+            {% for message in messages %}
+                <p class="contact-form-status" id="reviewFormStatus">{{ message }}</p>
+            {% endfor %}
+        {% endif %}
+
+        <div
+            id="write-review"
+            class="contact-form-wrapper"
+            {% if not show_review_form %}hidden{% endif %}>
+
+            <div class="write-review-space" aria-hidden="true"></div>
+            <p class="write-review-title">WRITE A REVIEW</p>
+
+            <form
+                class="contact-form"
+                method="post"
+                action="{% url 'submit_review' %}">
+
+                {% csrf_token %}
+
+                <div class="contact-form-left">
+
+                    <div class="form-group brief-group">
+                        <label for="id_name">Name *</label>
+                        {{ review_form.name }}
+                        {% if review_form.name.errors %}
+                            <p class="contact-form-status">{{ review_form.name.errors.0 }}</p>
+                        {% endif %}
+                    </div>
+
+                    <div class="form-group">
+                        {{ review_form.email }}
+                    </div>
+
+                    <div class="form-group">
+                        <div class="rating">
+                            <input type="radio" name="rating" id="r5" value="5" {% if review_form.rating.value == 5 or review_form.rating.value == "5" %}checked{% endif %} required>
+                            <label for="r5"></label>
+                            <input type="radio" name="rating" id="r4" value="4" {% if review_form.rating.value == 4 or review_form.rating.value == "4" %}checked{% endif %}>
+                            <label for="r4"></label>
+                            <input type="radio" name="rating" id="r3" value="3" {% if review_form.rating.value == 3 or review_form.rating.value == "3" %}checked{% endif %}>
+                            <label for="r3"></label>
+                            <input type="radio" name="rating" id="r2" value="2" {% if review_form.rating.value == 2 or review_form.rating.value == "2" %}checked{% endif %}>
+                            <label for="r2"></label>
+                            <input type="radio" name="rating" id="r1" value="1" {% if review_form.rating.value == 1 or review_form.rating.value == "1" %}checked{% endif %}>
+                            <label for="r1"></label>
+                        </div>
+                        {% if review_form.rating.errors %}
+                            <p class="contact-form-status">{{ review_form.rating.errors.0 }}</p>
+                        {% endif %}
+                    </div>
+
+                </div>
+
+                <div class="contact-form-right">
+
+                    <div class="form-group brief-group">
+                        <label for="review-comment">Review *</label>
+                        {{ review_form.comment }}
+                        {% if review_form.comment.errors %}
+                            <p class="contact-form-status">{{ review_form.comment.errors.0 }}</p>
+                        {% endif %}
+                    </div>
+
+                    <button type="submit" class="contact-submit">
+                        <span>Submit Review</span>
+                        <i class="bi bi-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===================== CLIENT SECTION END ===================== -->
+
+
+<!-- ================= ABOUT ME SECTION ================= -->
+
+<section class="about-section" id="about">
+
+    <div class="about-bg-decor" aria-hidden="true">
+        <span class="about-bg-ring about-bg-ring--2"></span>
+        <span class="about-bg-dot-grid"></span>
+    </div>
+
+    <div class="about-container">
+
+        <div class="about-image reveal-from-left">
+
+            <div class="about-image-frame">
+
+                <div class="about-image-shadow"></div>
+
+                <div class="about-image-card">
+                    <img src="{% static 'image/ragul.png' %}"
+                         alt="About Me">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-content reveal-from-right">
+
+            <p class="about-eyebrow">GET TO KNOW ME</p>
+
+            <h2 class="about-title">About Me</h2>
+
+            <span class="about-heading-line"></span>
+
+            <p class="about-text">
+                      At Taste My Country, we turn ideas into purposeful digital experiences that help brands stand out,
+                connect with their audience, and grow with confidence.
+            </p>
+
+            <p class="about-text">
+                      We combine creativity, strategy, and digital expertise to build brands that are visually impactful,
+                meaningful, and results-driven.
+            </p>
+
+            <p class="about-text">
+                From digital marketing and social media to Meta Ads, content creation, brand promotion,
+                and web development, we create solutions that strengthen your brand, expand your reach,
+                and connect with your audience.
+            </p>
+
+            <p class="about-text">
+                Our goal is simple: <span> to help brands build a presence that people notice, remember, and trust.<span>
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= ABOUT ME SECTION END ================= -->
+
+
+<!-- =====================CONTACT SECTION==================== -->
+
+<section class="contact-section" id="contact">
+
+    <div class="contact-container">
+
+
+        <!-- =================================
+             CONTACT HEADING
+        ================================= -->
+
+        <div class="contact-content">
+
+            <p class="contact-eyebrow">
+                LET'S GROW TOGETHER
+            </p>
+
+
+            <h2 class="contact-title">
+
+                Ready to go on a
+
+                <span>business growth</span>
+
+                trajectory?
+
+            </h2>
+
+
+            <p class="contact-subtitle">
+                We would love to be your Growth Partner.
+            </p>
+
+
+            <p class="contact-description">
+
+                Tell us about your business, your goals, and what you
+                are looking to achieve. Our team will get in touch with
+                you and explore how we can help your brand grow online.
+
+            </p>
+
+        </div>
+
+
+
+        <!-- =================================
+             CONTACT FORM
+        ================================= -->
+
+        <div class="contact-form-wrapper">
+
+            <form class="contact-form" id="contactForm" autocomplete="off">
+
+
+                <!-- =================================
+                     LEFT SIDE
+                ================================= -->
+
+                <div class="contact-form-left">
+
+
+                    <!-- NAME -->
+
+                    <div class="form-group">
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Name *"
+                            required>
+
+                    </div>
+
+
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Email *"
+                            required>
+
+                    </div>
+
+
+
+                    <!-- PHONE -->
+
+                    <div class="form-group">
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Phone Number *"
+                            required>
+
+                    </div>
+
+
+
+                    <!-- CITY -->
+
+                    <div class="form-group">
+
+                        <input
+                            type="text"
+                            id="city"
+                            name="city"
+                            placeholder="City *"
+                            required>
+
+                    </div>
+
+
+
+                    <!-- COMPANY -->
+
+                    <div class="form-group">
+
+                        <input
+                            type="text"
+                            id="company"
+                            name="company"
+                            placeholder="Company *"
+                            required>
+
+                    </div>
+
+
+
+                    <!-- GOLDEN LINE -->
+
+<!--                    <div class="contact-divider"></div>-->
+
+
+                </div>
+
+
+
+                <!-- =================================
+                     RIGHT SIDE
+                ================================= -->
+
+                <div class="contact-form-right">
+
+
+                    <!-- =================================
+                         SERVICES REQUIRED
+                    ================================= -->
+
+                    <div class="form-group services-group">
+
+                        <label>
+                            Services Required
+                        </label>
+
+
+                        <div class="service-options">
+
+
+                            <!-- BRANDING -->
+
+                            <label class="service-box">
+
+                                <input type="checkbox" name="services" value="Brand Promotion">
+                                <span>Brand Promotion</span>
+
+                            </label>
+
+
+
+                            <!-- LOGO DESIGN -->
+
+                            <label class="service-box">
+
+                                <input
+                                    type="checkbox"
+                                    name="services"
+                                    value="Digital Marketing">
+
+                                <span>
+                                    Digital Marketing
+                                </span>
+
+                            </label>
+
+
+
+                            <!-- BRAND IDENTITY -->
+
+                            <label class="service-box">
+
+                                <input
+                                    type="checkbox"
+                                    name="services"
+                                    value="Social Media Marketing">
+
+                                <span>
+                                    Social Media Marketing
+                                </span>
+
+                            </label>
+
+
+
+                            <!-- REBRANDING -->
+
+                            <label class="service-box">
+
+                                <input
+                                    type="checkbox"
+                                    name="services"
+                                    value="Social Media Management">
+
+                                <span>
+                                    Social Media Management
+                                </span>
+
+                            </label>
+
+
+
+                            <!-- PRODUCT LAUNCH -->
+
+                            <label class="service-box">
+
+                                <input
+                                    type="checkbox"
+                                    name="services"
+                                    value="Meta Ads">
+
+                                <span>
+                                    Meta Ads
+                                </span>
+
+                            </label>
+
+
+
+                            <!-- STORE LAUNCH -->
+
+                            <label class="service-box">
+
+                                <input
+                                    type="checkbox"
+                                    name="services"
+                                    value="Content Creation">
+
+                                <span>
+                                    Content Creation
+                                </span>
+
+                            </label>
+
+
+
+                            <!-- PR -->
+
+                            <label class="service-box">
+
+                                <input
+                                    type="checkbox"
+                                    name="services"
+                                    value="Web Development">
+
+                                <span>
+                                    Web Development
+                                </span>
+
+                            </label>
+
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- =================================
+                         BRIEF
+                    ================================= -->
+
+                    <div class="form-group brief-group">
+
+                        <label for="description">
+                            Brief
+                        </label>
+
+
+                        <textarea
+                            id="description"
+                            name="description"
+                            rows="5"
+                            autocomplete="off"
+                            placeholder="Tell us briefly about your project..."></textarea>
+
+                    </div>
+
+
+
+                    <!-- =================================
+                         SUBMIT BUTTON
+                    ================================= -->
+
+                    <button
+                        type="submit"
+                        class="contact-submit">
+
+                        <span>
+                            Let's Talk
+                        </span>
+
+                        <i class="bi bi-arrow-right"></i>
+
+                    </button>
+
+                    <p class="contact-form-status" id="contactFormStatus" hidden></p>
+
+
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================CONTACT SECTION==================== -->
+
+
+
+<!-- ====================== FOOTER =================== -->
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="site-footer">
+
+    <hr class="footer-line">
+
+    <div class="footer-inner">
+
+
+
+        <!-- LOGO -->
+        <a href="#home"
+           class="footer-logo"
+           aria-label="Taste My Country Home">
+
+            <img src="{% static 'image/logo.png' %}"
+                 alt="Taste My Country Logo">
+
+            <span>Taste My Country.</span>
+
+        </a>
+
+
+
+        <!-- SOCIAL ICONS -->
+        <div class="footer-socials">
+
+            <!-- INSTAGRAM -->
+            <a href="https://www.instagram.com/tmc_digital_marketing?stkn=bWVxbTE4cGczd24z"
+               class="footer-social"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Instagram">
+
+                <i class="bi bi-instagram"></i>
+
+            </a>
+
+
+            <!-- YOUTUBE -->
+            <a href="https://youtube.com/@tastemycountry8032?si=EG_viHJtcsdxW1dI"
+               class="footer-social"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="YouTube">
+
+                <i class="bi bi-youtube"></i>
+
+            </a>
+
+            <a href="mailto:tastemycountryedit@gmail.com"
+                class="footer-social"
+                aria-label="Email">
+
+                <i class="bi bi-envelope-fill"></i>
+
+            </a>
+
+
+            <!-- WHATSAPP -->
+            <a href="https://wa.me/919952541637"
+               class="footer-social"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="WhatsApp">
+
+                <i class="bi bi-whatsapp"></i>
+
+            </a>
+
+        </div>
+
+                <!-- COPYRIGHT -->
+        <p class="footer-copyright">
+            © 2026 Taste My Country. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+<!-- ================= FOOTER END ================= -->
+
+
+<!-- =============== FLOATING WHATSAPP BUTTON ================== -->
+
+
+<a
+    href="https://wa.me/919952541637"
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contact us on WhatsApp">
+
+    <span class="whatsapp-text">Contact Us</span>
+
+    <span class="whatsapp-icon">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+            <path transform="translate(1.79 0.87)" d="M19.11 17.2c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.17-1.34-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.3s.98 2.67 1.12 2.85c.14.18 1.93 2.95 4.68 4.14.65.28 1.16.45 1.56.58.66.21 1.26.18 1.73.11.53-.08 1.6-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"/>
+            <path d="M16.01 3.2c-7.05 0-12.79 5.73-12.79 12.78 0 2.25.59 4.45 1.71 6.39L3.11 28.8l6.58-1.72a12.75 12.75 0 0 0 6.32 1.67h.01c7.04 0 12.77-5.73 12.77-12.77 0-3.42-1.33-6.63-3.75-9.04a12.7 12.7 0 0 0-9.03-3.74zm0 23.39h-.01a10.58 10.58 0 0 1-5.39-1.47l-.39-.23-3.9 1.02 1.04-3.8-.25-.39a10.58 10.58 0 0 1-1.62-5.65c0-5.85 4.77-10.61 10.63-10.61 2.83 0 5.49 1.1 7.49 3.11a10.55 10.55 0 0 1 3.1 7.5c0 5.84-4.76 10.61-10.6 10.61z"/>
+        </svg>
+    </span>
+</a>
+
+<!-- =============== FLOATING WHATSAPP BUTTON END ================== -->
+
+<!-- GOLD GLITTER CURSOR -->
+<canvas id="gold-glitter"></canvas>
+
+<!-- ================= SCRIPT ================= -->
+
+<script>
+
+    if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+    }
+
+    function startFromHome() {
+        if (window.location.hash) {
+            history.replaceState(null, "", window.location.pathname + window.location.search);
+        }
+        if (window.pageYOffset > 0) {
+            return;
+        }
+        window.scrollTo(0, 0);
+    }
+
+    startFromHome();
+    window.addEventListener("load", startFromHome);
+    window.addEventListener("pageshow", startFromHome);
+
+
+    const navbar = document.querySelector(".navbar");
+    const themeToggle = document.querySelector(".theme-toggle");
+    const navToggle = document.querySelector(".nav-toggle");
+
+
+    function updateNavHeight() {
+        if (navbar) {
+            document.documentElement.style.setProperty(
+                "--nav-height",
+                navbar.offsetHeight + "px"
+            );
+        }
+    }
+
+    updateNavHeight();
+    window.addEventListener("resize", updateNavHeight);
+
+
+    function setMenuOpen(open) {
+        if (!navbar) {
+            return;
+        }
+
+        navbar.classList.toggle("open", open);
+
+        if (navToggle) {
+            navToggle.textContent = open ? "×" : "☰";
+            navToggle.setAttribute("aria-label", open ? "Close menu" : "Toggle menu");
+        }
+
+        updateNavHeight();
+    }
+
+
+    document.querySelectorAll('a[href="#work"], a[href="#clients"], a[href="#about"], a[href="#contact"]').forEach(function (link) {
+
+        link.addEventListener("click", function (event) {
+
+            const section = document.getElementById(this.getAttribute("href").slice(1));
+
+            if (!section) {
+                return;
+            }
+
+            event.preventDefault();
+            setMenuOpen(false);
+
+            const marker = section.id === "about"
+                ? (section.querySelector(".about-container") || section.querySelector(".about-image") || section)
+                : (section.querySelector("h2") || section);
+            const navHeight = navbar ? navbar.offsetHeight : 72;
+            const top = marker.getBoundingClientRect().top + window.pageYOffset - navHeight - 28;
+
+            window.scrollTo({
+                top: Math.max(0, top),
+                behavior: "smooth"
+            });
+
+        });
+
+    });
+
+
+    document.querySelectorAll(".nav-links a").forEach(function (link) {
+
+        link.addEventListener("click", function () {
+            setMenuOpen(false);
+        });
+
+    });
+
+
+    navToggle.addEventListener("click", function () {
+
+        setMenuOpen(!navbar.classList.contains("open"));
+
+    });
+
+
+    function setTheme(theme) {
+
+        document.body.classList.toggle(
+            "light-theme",
+            theme === "light"
+        );
+
+        localStorage.setItem("theme", theme);
+
+    }
+
+
+    const savedTheme =
+        localStorage.getItem("theme") || "dark";
+
+    setTheme(savedTheme);
+
+
+    themeToggle.addEventListener("click", function () {
+
+        const nextTheme =
+            document.body.classList.contains("light-theme")
+                ? "dark"
+                : "light";
+
+        setTheme(nextTheme);
+
+    });
+
+
+    const contactForm = document.getElementById("contactForm");
+    const contactFormStatus = document.getElementById("contactFormStatus");
+    const contactSentKey = "tmcContactFormSent";
+
+    function clearContactForm() {
+        if (!contactForm) {
+            return;
+        }
+
+        if (document.activeElement && contactForm.contains(document.activeElement)) {
+            document.activeElement.blur();
+        }
+
+        Array.from(contactForm.querySelectorAll("input, textarea")).forEach(function (field) {
+            if (field.type === "checkbox" || field.type === "radio") {
+                field.checked = false;
+                field.defaultChecked = false;
+                return;
+            }
+
+            field.value = "";
+            field.defaultValue = "";
+        });
+
+        contactForm.reset();
+    }
+
+    function clearSentContactForm() {
+        if (sessionStorage.getItem(contactSentKey) !== "1") {
+            return;
+        }
+
+        clearContactForm();
+
+        if (contactFormStatus) {
+            contactFormStatus.hidden = true;
+            contactFormStatus.textContent = "";
+        }
+    }
+
+    if (contactForm) {
+        let canClearSentFlag = true;
+
+        clearSentContactForm();
+        window.addEventListener("pageshow", clearSentContactForm);
+
+        contactForm.addEventListener("input", function () {
+            if (canClearSentFlag) {
+                sessionStorage.removeItem(contactSentKey);
+            }
+        });
+
+        contactForm.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const name = contactForm.name.value.trim();
+            const email = contactForm.email.value.trim();
+            const phone = contactForm.phone.value.trim();
+            const city = contactForm.city.value.trim();
+            const company = contactForm.company.value.trim();
+            const brief = contactForm.description.value.trim();
+            const services = Array.from(
+                contactForm.querySelectorAll('input[name="services"]:checked')
+            ).map(function (input) {
+                return input.value;
+            });
+
+            const whatsappLink = document.querySelector(".whatsapp-float");
+            const whatsappMatch = whatsappLink
+                ? whatsappLink.getAttribute("href").match(/wa\.me\/(\d+)/)
+                : null;
+            const whatsappNumber = whatsappMatch ? whatsappMatch[1] : "919952541637";
+
+            const message = [
+                "New enquiry — Taste My Country",
+                "",
+                "Name: " + name,
+                "Email: " + email,
+                "Phone: " + phone,
+                "City: " + city,
+                "Company: " + company,
+                "Services: " + (services.length ? services.join(", ") : "Not selected"),
+                "Brief: " + (brief || "Not provided")
+            ].join("\n");
+
+            window.open(
+                "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(message),
+                "_blank",
+                "noopener,noreferrer"
+            );
+
+            sessionStorage.setItem(contactSentKey, "1");
+            canClearSentFlag = false;
+            clearContactForm();
+            setTimeout(function () {
+                clearContactForm();
+                canClearSentFlag = true;
+            }, 50);
+
+            if (contactFormStatus) {
+                contactFormStatus.hidden = false;
+                contactFormStatus.textContent =
+                    "WhatsApp is opening with this enquiry. Send the message there so we receive it.";
+            }
+        });
+    }
+
+
+    const revealElements =
+        document.querySelectorAll(".reveal-from-left, .reveal-from-right");
+
+    const revealObserver = new IntersectionObserver(
+        function (entries) {
+
+            entries.forEach(function (entry) {
+
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("is-visible");
+                } else {
+                    entry.target.classList.remove("is-visible");
+                }
+
+            });
+
+        },
+        {
+            threshold: 0.12,
+            rootMargin: "0px 0px -80px 0px"
+        }
+    );
+
+    revealElements.forEach(function (element) {
+
+        revealObserver.observe(element);
+
+    });
+
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const track = document.getElementById("workTrack");
+    const nextBtn = document.getElementById("workNext");
+    const prevBtn = document.getElementById("workPrev");
+
+    if (!track) return;
+
+    const cards = Array.from(
+        track.querySelectorAll(".work-card")
+    );
+
+    const videos = track.querySelectorAll(".work-video");
+
+    const total = cards.length;
+
+    let currentIndex = 0;
+
+    let autoSlideTimer;
+
+
+    /* =====================================
+       VIDEO AUTOPLAY
+    ===================================== */
+
+    function playVideos() {
+
+        videos.forEach(function (video) {
+
+            video.muted = true;
+            video.defaultMuted = true;
+            video.volume = 0;
+
+            video.play().catch(function () {
+                // Browser may wait until video is ready
+            });
+
+        });
+
+    }
+
+
+    /* =====================================
+       GET CARD WIDTH
+    ===================================== */
+
+    function getCardWidth() {
+
+        const card = cards[0];
+
+        if (!card) return 0;
+
+        const style = window.getComputedStyle(track);
+
+        const gap =
+            parseFloat(style.columnGap || style.gap) || 0;
+
+        return card.offsetWidth + gap;
+    }
+
+
+    /* =====================================
+       MOVE SLIDER
+    ===================================== */
+
+    function moveSlider() {
+
+        const cardWidth = getCardWidth();
+
+        track.style.transform =
+            "translateX(-" +
+            (currentIndex * cardWidth) +
+            "px)";
+
+    }
+
+
+    /* =====================================
+       NEXT
+    ===================================== */
+
+    function nextSlide() {
+
+    /*
+       Slide only 4 times:
+       1 → 2
+       2 → 3
+       3 → 4
+       4 → 5
+
+       Then return to video 1.
+    */
+
+    if (currentIndex < 4) {
+
+        currentIndex++;
+
+        track.style.transition =
+            "transform 0.8s ease";
+
+        moveSlider();
+
+    }
+
+    else {
+
+        /*
+           After 4 slides,
+           instantly return to video 1
+        */
+
+        currentIndex = 0;
+
+        track.style.transition = "none";
+
+        moveSlider();
+
+        requestAnimationFrame(function () {
+
+            requestAnimationFrame(function () {
+
+                track.style.transition =
+                    "transform 0.8s ease";
+
+            });
+
+        });
+
+    }
+
+    playVideos();
+
+}
+
+    /* =====================================
+       PREVIOUS
+    ===================================== */
+
+    function previousSlide() {
+
+        currentIndex--;
+
+        if (currentIndex < 0) {
+
+            currentIndex = total - 1;
+
+        }
+
+        track.style.transition =
+            "transform 0.8s ease";
+
+        moveSlider();
+
+        playVideos();
+
+    }
+
+
+    /* =====================================
+       START AUTO SLIDE
+    ===================================== */
+
+    function startAutoSlide() {
+
+        clearInterval(autoSlideTimer);
+
+        autoSlideTimer = setInterval(
+            function () {
+
+                nextSlide();
+
+            },
+            4000
+        );
+
+    }
+
+
+    /* =====================================
+       RIGHT ARROW
+    ===================================== */
+
+    if (nextBtn) {
+
+        nextBtn.addEventListener(
+            "click",
+            function () {
+
+                nextSlide();
+
+                startAutoSlide();
+
+            }
+        );
+
+    }
+
+
+    /* =====================================
+       LEFT ARROW
+    ===================================== */
+
+    if (prevBtn) {
+
+        prevBtn.addEventListener(
+            "click",
+            function () {
+
+                previousSlide();
+
+                startAutoSlide();
+
+            }
+        );
+
+    }
+
+
+    /* =====================================
+       INITIAL SETUP
+    ===================================== */
+
+    track.style.transition =
+        "transform 0.8s ease";
+
+    track.style.willChange =
+        "transform";
+
+    moveSlider();
+
+    playVideos();
+
+    startAutoSlide();
+
+
+    /* Pause offscreen work videos so they do not drop scroll FPS */
+    const workSection = document.querySelector(".work-section");
+
+    if (workSection && "IntersectionObserver" in window) {
+
+        const workVisibility = new IntersectionObserver(
+            function (entries) {
+
+                entries.forEach(function (entry) {
+
+                    videos.forEach(function (video) {
+
+                        if (entry.isIntersecting) {
+                            video.play().catch(function () {});
+                        } else {
+                            video.pause();
+                        }
+
+                    });
+
+                });
+
+            },
+            {
+                rootMargin: "200px 0px"
+            }
+        );
+
+        workVisibility.observe(workSection);
+
+    }
+
+
+    /* =====================================
+       RESIZE
+    ===================================== */
+
+    window.addEventListener(
+        "resize",
+        function () {
+
+            track.style.transition = "none";
+
+            moveSlider();
+
+            requestAnimationFrame(
+                function () {
+
+                    track.style.transition =
+                        "transform 0.8s ease";
+
+                }
+            );
+
+        }
+    );
+
+
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const track = document.querySelector(".client-track");
+    const slides = document.querySelectorAll(".client-slide");
+    const prevBtn = document.querySelector(".client-prev-btn");
+    const nextBtn = document.querySelector(".client-next-btn");
+    const dotsContainer = document.querySelector(".client-dots");
+
+    if (
+        !track ||
+        !slides.length ||
+        !prevBtn ||
+        !nextBtn ||
+        !dotsContainer
+    ) {
+        return;
+    }
+
+
+    let currentIndex = 0;
+    let slidesPerView = 3;
+    let autoSlide;
+
+
+    function getSlidesPerView() {
+
+        if (window.innerWidth <= 600) {
+            return 1;
+        }
+
+        if (window.innerWidth <= 991) {
+            return 2;
+        }
+
+        return 3;
+    }
+
+
+    function getMaxIndex() {
+
+        return Math.max(
+            0,
+            slides.length - slidesPerView
+        );
+    }
+
+
+    function createDots() {
+
+        dotsContainer.innerHTML = "";
+
+        const totalDots = getMaxIndex() + 1;
+
+        for (let i = 0; i < totalDots; i++) {
+
+            const dot = document.createElement("button");
+
+            dot.type = "button";
+            dot.className = "client-dot";
+
+            dot.setAttribute(
+                "aria-label",
+                "Go to client " + (i + 1)
+            );
+
+
+            if (i === currentIndex) {
+                dot.classList.add("active");
+            }
+
+
+            dot.addEventListener("click", function () {
+
+                currentIndex = i;
+
+                updateSlider();
+
+                restartAutoSlide();
+
+            });
+
+
+            dotsContainer.appendChild(dot);
+        }
+    }
+
+
+    function updateSlider() {
+
+        slidesPerView = getSlidesPerView();
+
+        const maxIndex = getMaxIndex();
+
+        if (currentIndex > maxIndex) {
+            currentIndex = maxIndex;
+        }
+
+
+        const slideWidth = 100 / slidesPerView;
+
+        track.style.transform =
+            `translateX(-${currentIndex * slideWidth}%)`;
+
+
+        const dots =
+            document.querySelectorAll(".client-dot");
+
+
+        dots.forEach(function (dot, index) {
+
+            dot.classList.toggle(
+                "active",
+                index === currentIndex
+            );
+
+        });
+    }
+
+
+    function nextSlide() {
+
+        const maxIndex = getMaxIndex();
+
+        if (currentIndex >= maxIndex) {
+
+            currentIndex = 0;
+
+        } else {
+
+            currentIndex++;
+
+        }
+
+        updateSlider();
+    }
+
+
+    function prevSlide() {
+
+        const maxIndex = getMaxIndex();
+
+        if (currentIndex <= 0) {
+
+            currentIndex = maxIndex;
+
+        } else {
+
+            currentIndex--;
+
+        }
+
+        updateSlider();
+    }
+
+
+    function startAutoSlide() {
+
+        autoSlide = setInterval(function () {
+
+            nextSlide();
+
+        }, 3000);
+    }
+
+
+    function restartAutoSlide() {
+
+        clearInterval(autoSlide);
+
+        startAutoSlide();
+    }
+
+
+    nextBtn.addEventListener("click", function () {
+
+        nextSlide();
+
+        restartAutoSlide();
+
+    });
+
+
+    prevBtn.addEventListener("click", function () {
+
+        prevSlide();
+
+        restartAutoSlide();
+
+    });
+
+
+    window.addEventListener("resize", function () {
+
+        const oldSlidesPerView = slidesPerView;
+
+        slidesPerView = getSlidesPerView();
+
+
+        if (oldSlidesPerView !== slidesPerView) {
+
+            currentIndex = 0;
+
+            createDots();
+        }
+
+
+        updateSlider();
+
+    });
+
+
+    slidesPerView = getSlidesPerView();
+
+    createDots();
+
+    updateSlider();
+
+    startAutoSlide();
+
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const writeReviewBtn = document.getElementById("writeReviewBtn");
+    const writeReviewForm = document.getElementById("write-review");
+    const reviewStatus = document.getElementById("reviewFormStatus");
+
+    function scrollToWriteReviewButton() {
+        const nav = document.querySelector(".navbar");
+        const navHeight = nav ? nav.offsetHeight : 72;
+        const marker = writeReviewBtn || writeReviewForm;
+        if (!marker) {
+            return;
+        }
+
+        const top = marker.getBoundingClientRect().top + window.pageYOffset - navHeight - 20;
+        window.scrollTo({
+            top: Math.max(0, top),
+            behavior: "smooth"
+        });
+    }
+
+    if (writeReviewBtn && writeReviewForm) {
+        writeReviewBtn.addEventListener("click", function (event) {
+            event.preventDefault();
+            writeReviewForm.hidden = false;
+            scrollToWriteReviewButton();
+        });
+    }
+
+    if (reviewStatus || (writeReviewForm && !writeReviewForm.hidden)) {
+        window.addEventListener("load", scrollToWriteReviewButton);
+    }
+
+    document.querySelectorAll(".client-review[data-full]").forEach(function (reviewText) {
+        const toggle = reviewText.querySelector("a");
+        if (!toggle) {
+            return;
+        }
+
+        toggle.addEventListener("click", function (event) {
+            event.preventDefault();
+            reviewText.textContent = "“" + reviewText.getAttribute("data-full") + "”";
+        });
+    });
+});
+</script>
+
+<script src="{% static 'js/services-scroll.js' %}?v=services-edge"></script>
+
+<script>
+   /* =========================================
+   GOLD GLITTER CURSOR EFFECT
+========================================= */
+
+const canvas = document.getElementById("gold-glitter");
+const ctx = canvas.getContext("2d");
+
+let width = window.innerWidth;
+let height = window.innerHeight;
+
+canvas.width = width;
+canvas.height = height;
+
+let mouse = {
+    x: width / 2,
+    y: height / 2,
+
+    lastX: width / 2,
+    lastY: height / 2,
+
+    active: false
+};
+
+const particles = [];
+
+const MAX_PARTICLES = 350;
+
+function glitterPalette() {
+    if (document.body.classList.contains("light-theme")) {
+        return {
+            shadow: "rgba(154, 114, 10, 0.92)",
+            outer: [168, 120, 8],
+            outerAlpha: 0.88,
+            center: [184, 134, 11],
+            star: [139, 105, 12]
+        };
+    }
+
+    return {
+        shadow: "rgba(255, 205, 70, 0.95)",
+        outer: [255, 190, 40],
+        outerAlpha: 0.7,
+        center: [255, 248, 190],
+        star: [255, 230, 130]
+    };
+}
+
+
+/* =========================================
+   RESIZE
+========================================= */
+
+function resizeCanvas() {
+
+    width = window.innerWidth;
+    height = window.innerHeight;
+
+    canvas.width = width;
+    canvas.height = height;
+}
+
+window.addEventListener("resize", resizeCanvas);
+
+
+/* =========================================
+   MOUSE MOVE
+========================================= */
+
+document.addEventListener("mousemove", (e) => {
+
+    mouse.x = e.clientX;
+    mouse.y = e.clientY;
+
+    mouse.active = true;
+
+    const dx = mouse.x - mouse.lastX;
+    const dy = mouse.y - mouse.lastY;
+
+    const distance = Math.sqrt(dx * dx + dy * dy);
+
+    /*
+       Create more particles when
+       mouse moves faster
+    */
+
+    const amount = Math.min(
+        10,
+        Math.floor(distance / 4)
+    );
+
+    for (let i = 0; i < amount; i++) {
+
+        createParticle(
+            mouse.x,
+            mouse.y,
+            dx,
+            dy
+        );
+    }
+
+    mouse.lastX = mouse.x;
+    mouse.lastY = mouse.y;
+});
+
+
+/* =========================================
+   CREATE PARTICLE
+========================================= */
+
+function createParticle(x, y, velocityX, velocityY) {
+
+    if (particles.length >= MAX_PARTICLES) {
+        particles.shift();
+    }
+
+    /*
+       Random spread around cursor
+    */
+
+    const spreadX = (Math.random() - 0.5) * 25;
+    const spreadY = (Math.random() - 0.5) * 25;
+
+    /*
+       Some particles move opposite
+       to cursor direction
+    */
+
+    const speed = Math.random() * 0.8 + 0.2;
+
+    const particle = {
+
+        x: x + spreadX,
+        y: y + spreadY,
+
+        vx:
+            (Math.random() - 0.5) * 1.5
+            - velocityX * 0.02,
+
+        vy:
+            (Math.random() - 0.5) * 1.5
+            - velocityY * 0.02,
+
+        /*
+           Random particle size
+        */
+
+        size:
+            Math.random() < 0.15
+                ? Math.random() * 3 + 2
+                : Math.random() * 1.8 + 0.4,
+
+        /*
+           Lifetime
+        */
+
+        life: 1,
+
+        decay:
+            Math.random() * 0.018 + 0.012,
+
+        /*
+           Golden brightness
+        */
+
+        brightness:
+            Math.random() * 0.5 + 0.5,
+
+        /*
+           Some particles twinkle
+        */
+
+        twinkle:
+            Math.random() * Math.PI * 2,
+
+        twinkleSpeed:
+            Math.random() * 0.15 + 0.05,
+
+        /*
+           Bigger particles glow more
+        */
+
+        glow:
+            Math.random() * 10 + 8
+    };
+
+    particles.push(particle);
+}
+
+
+/* =========================================
+   DRAW PARTICLE
+========================================= */
+
+function drawParticle(p) {
+
+    /*
+       Twinkle effect
+    */
+
+    p.twinkle += p.twinkleSpeed;
+
+    const twinkle =
+        0.65 +
+        Math.sin(p.twinkle) * 0.35;
+
+    const alpha =
+        p.life *
+        p.brightness *
+        twinkle;
+
+    if (alpha <= 0) return;
+
+
+    /*
+       Strong glow
+    */
+
+    ctx.save();
+
+    ctx.globalAlpha = alpha;
+
+    const palette = glitterPalette();
+
+    ctx.shadowBlur = p.glow;
+
+    ctx.shadowColor = palette.shadow;
+
+
+    /*
+       Outer glowing particle
+    */
+
+    ctx.beginPath();
+
+    ctx.fillStyle =
+        `rgba(${palette.outer[0]}, ${palette.outer[1]}, ${palette.outer[2]}, ${alpha * palette.outerAlpha})`;
+
+    ctx.arc(
+        p.x,
+        p.y,
+        p.size * 2,
+        0,
+        Math.PI * 2
+    );
+
+    ctx.fill();
+
+
+    /*
+       Bright center
+    */
+
+    ctx.shadowBlur = 4;
+
+    ctx.beginPath();
+
+    ctx.fillStyle =
+        `rgba(${palette.center[0]}, ${palette.center[1]}, ${palette.center[2]}, ${alpha})`;
+
+    ctx.arc(
+        p.x,
+        p.y,
+        p.size * 0.7,
+        0,
+        Math.PI * 2
+    );
+
+    ctx.fill();
+
+
+    /*
+       Tiny star particles
+    */
+
+    if (p.size > 2) {
+
+        ctx.strokeStyle =
+            `rgba(${palette.star[0]}, ${palette.star[1]}, ${palette.star[2]}, ${alpha})`;
+
+        ctx.lineWidth = 0.6;
+
+        ctx.beginPath();
+
+        ctx.moveTo(
+            p.x - p.size * 2.5,
+            p.y
+        );
+
+        ctx.lineTo(
+            p.x + p.size * 2.5,
+            p.y
+        );
+
+        ctx.moveTo(
+            p.x,
+            p.y - p.size * 2.5
+        );
+
+        ctx.lineTo(
+            p.x,
+            p.y + p.size * 2.5
+        );
+
+        ctx.stroke();
+    }
+
+    ctx.restore();
+}
+
+
+/* =========================================
+   ANIMATION
+========================================= */
+
+function animateGlitter() {
+
+    /*
+       Clear canvas
+    */
+
+    ctx.clearRect(
+        0,
+        0,
+        width,
+        height
+    );
+
+
+    /*
+       Update particles
+    */
+
+    for (let i = particles.length - 1; i >= 0; i--) {
+
+        const p = particles[i];
+
+
+        /*
+           Movement
+        */
+
+        p.x += p.vx;
+        p.y += p.vy;
+
+
+        /*
+           Slight floating gravity
+        */
+
+        p.vy += 0.008;
+
+
+        /*
+           Slow down
+        */
+
+        p.vx *= 0.985;
+        p.vy *= 0.985;
+
+
+        /*
+           Fade
+        */
+
+        p.life -= p.decay;
+
+
+        /*
+           Remove dead particles
+        */
+
+        if (p.life <= 0) {
+
+            particles.splice(i, 1);
+
+            continue;
+        }
+
+
+        drawParticle(p);
+    }
+
+
+    requestAnimationFrame(animateGlitter);
+}
+
+
+/* =========================================
+   START
+========================================= */
+
+animateGlitter();
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+<script>
+(function () {
+    var container = document.getElementById("infinity-animation");
+    if (!container || typeof lottie === "undefined") {
+        return;
+    }
+
+    var path = container.getAttribute("data-animation");
+    if (!path) {
+        return;
+    }
+
+    var animation = lottie.loadAnimation({
+        container: container,
+        renderer: "svg",
+        loop: true,
+        autoplay: false,
+        path: path
+    });
+
+    animation.addEventListener("DOMLoaded", function () {
+        var svg = container.querySelector("svg");
+        if (!svg) {
+            return;
+        }
+
+        var defs = svg.querySelector("defs");
+        if (!defs) {
+            defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
+            svg.insertBefore(defs, svg.firstChild);
+        }
+
+        function addGradient(id, stops) {
+            if (svg.querySelector("#" + id)) {
+                return;
+            }
+
+            var grad = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
+            grad.setAttribute("id", id);
+            grad.setAttribute("x1", "0");
+            grad.setAttribute("y1", "0");
+            grad.setAttribute("x2", "1");
+            grad.setAttribute("y2", "0");
+
+            stops.forEach(function (stop) {
+                var el = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+                el.setAttribute("offset", stop[0]);
+                el.setAttribute("stop-color", stop[1]);
+                grad.appendChild(el);
+            });
+
+            defs.appendChild(grad);
+        }
+
+        addGradient("infinity-orange-grad", [
+            ["0%", "#d4af37"],
+            ["25%", "#d4af37"],
+            ["60%", "#f5d76e"],
+            ["100%", "#b8860b"]
+        ]);
+
+        addGradient("infinity-red-grad", [
+            ["0%", "#155b95"],
+            ["25%", "#155b95"],
+            ["60%", "#6eb6f5"],
+            ["100%", "#0b3d6b"]
+        ]);
+    });
+
+    function playLoop() {
+        animation.play();
+    }
+
+    if (!("IntersectionObserver" in window)) {
+        playLoop();
+        return;
+    }
+
+    var started = false;
+    var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+            if (entry.isIntersecting && !started) {
+                started = true;
+                playLoop();
+                observer.disconnect();
+            }
+        });
+    }, { threshold: 0.15 });
+
+    observer.observe(container);
+})();
+</script>
+
+</body>
+</html>
+
+
+
+
+
