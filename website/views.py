@@ -1,4 +1,5 @@
 from django.contrib import messages
+from django.http import HttpResponse
 from django.shortcuts import redirect, render
 
 from .forms import ReviewForm
@@ -46,3 +47,12 @@ def submit_review(request):
             "show_review_form": True,
         },
     )
+
+
+def robots_txt(request):
+    content = """User-agent: *
+Allow: /
+
+Sitemap: https://tastemycountry.in/sitemap.xml
+"""
+    return HttpResponse(content, content_type="text/plain")
