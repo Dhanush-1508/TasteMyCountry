@@ -19,14 +19,21 @@ SECRET_KEY = os.environ.get(
     "django-insecure-local-development-key-change-in-production"
 )
 
-# TEMPORARY: used to identify the Render 500 error
-DEBUG = True
+# Production setting
+DEBUG = False
 
 ALLOWED_HOSTS = [
-    "127.0.0.1",
-    "localhost",
-    ".onrender.com",
-    ".trycloudflare.com",
+    '127.0.0.1',
+    'localhost',
+    '.onrender.com',
+    '.trycloudflare.com',
+    'tastemycountry.in',
+    'www.tastemycountry.in',
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://tastemycountry.in',
+    'https://www.tastemycountry.in',
 ]
 
 
@@ -217,3 +224,4 @@ LOGGING = {
 # ============================================================
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
